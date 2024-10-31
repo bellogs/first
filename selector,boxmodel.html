@@ -1,0 +1,106 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p{                        Internal css,element css
+            /* background-color: cadetblue;
+        } */ 
+
+        /* #p1{
+            background-color: antiquewhite;     id selector
+    }*/
+
+    /* .para{
+        background-color: aqua;        class selector
+    } */
+
+    /* p,article{
+        background-color: aqua;       //group selector
+    } */
+    
+    /* 4 types of selector are there and 3 types of css are defined.
+    Selector are as follow:-Id,class,Group,element 
+    Types are also defined in it Inline,Internal,External. */
+    
+       /* Notes: Always importance will be given to closest css available..
+       For eg: Inline>Internal>External
+       But if ecternal is defined after external the external>internal.
+       But if we use !important in internal then internal>inline */
+
+    </style>
+     <link rel="stylesheet" href="hello.css">  Way to add external css -->
+<!-- </head>
+<body>
+     Inline css
+    <p style="background-color: aqua;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, quas.</p> -->
+<!-- <h1>Hello</h1>
+    <article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad velit nobis dolor sapiente nisi fugit, sequi tempore debitis. Illum laudantium, libero obcaecati itaque error explicabo ex sit sapiente fugiat, placeat, ut impedit? Optio adipisci ea expedita, distinctio dolore, neque ab eveniet amet, facere omnis quo. Ea incidunt ad hic id.</article>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla facere sit iste hic architecto officia suscipit a sapiente aut! Architecto.</p>
+    
+
+    //Class is created and now we can use it in ".para" to style -->
+    <!-- <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea error ducimus itaque sit labore, consequatur recusandae quae doloremque quam, rerum quaerat mollitia aperiam? Sit soluta, vel aperiam quis minus quia?</p>
+    <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias ratione sunt id quia ex. Qui, quibusdam dolor fuga praesentium doloribus amet fugit soluta, asperiores sit velit deleniti? Vel, blanditiis cumque.</p>
+    
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad ullam magnam ea quidem excepturi quam maiores, earum necessitatibus asperiores est dolores sunt alias sapiente facilis vel, voluptates natus beatae.</p>
+</body>
+</html>  -->
+
+
+<!-- //Box Model:-Every content present in webpage is in rectangular box.
+4 types:
+Content:-The content present for eg in <p></p> or <span></span> etc.
+Padding:-The gap which is present between border and content.
+Border:-To give border to our content.
+Margin:-The gap between two rectangular boxes between another. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /* Padding Three ways to write it */
+      #p1{
+        padding-left:10px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-right:20px ;
+
+        /* or */
+        /* Top->Right->Bottom->Left */
+
+        padding:10px,20px,30px,40px;
+
+        /* or  */
+        /* Top&bottom->left&right */
+
+        padding:10px,20px;
+
+      }
+      /* Margin work same as padding  */
+
+
+      /* Universal selector. */
+
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      /* This disable the default margin and padding gaps */
+
+    </style>
+</head>
+<body>
+    <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quos cupiditate quae placeat quas debitis molestiae quisquam minima eligendi, quibusdam vero, nulla voluptates laudantium libero nihil, commodi dolore earum fugiat?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi deleniti animi quam iure, velit ipsa excepturi vitae facilis mollitia, aliquam id cumque hic, corrupti et nam corporis accusamus doloribus saepe.</p>
+    
+</body>
+</html>
